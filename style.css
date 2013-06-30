@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: url('images/header.jpg') no-repeat center;
+    height: 166px;
+    margin: 0;
+    padding: 0;
+}
+#compare {
+    background: url('images/compare.jpg') no-repeat center;
+    height: 1514px;
+    margin: 0;
+    padding: 0;
+}
+#disclaimer {
+    background: url('images/disclaimer.jpg') no-repeat center;
+    height: 174px;
+    margin: 0;
+    padding: 0;
+}
+footer {
+    background: url('images/footer.jpg') no-repeat center;
+    height: 784px;
+    margin: 0;
+    padding: 0;
+}
