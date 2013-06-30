@@ -1,4 +1,4 @@
 mmnachromecompare
 =================
 
-Mitsubishi North America's new automotive model comparison front-end
+Mitsubishi North America's new automotive model comparison tool (front-end).
