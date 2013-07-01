@@ -13,6 +13,30 @@ header {
     height: 1514px; 
     margin: 0;
     padding: 0;
+    text-align: center;
+}
+#add160px {
+    height: 160px;
+    background: none;
+}
+#comparecontainer {
+    width: 1110px;
+    background-color: #d7d7d7;
+    margin: 0 auto;
+}
+#comparecontainer div.modeltrim {
+    width: 25%;
+    float: left;
+}
+.comparelabel {
+    width: 28%;
+    float: left;
+    display: inline;
+}
+.comparetrimnamelabel {
+    width: 18%;
+    float: left;
+    display: inline;
 }
 #disclaimer {
     background: url('images/disclaimer.jpg') no-repeat center;
