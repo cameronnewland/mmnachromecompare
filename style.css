@@ -38,7 +38,6 @@ header {
     padding: 0;
 }
 #compare {
-/*    background: url('images/compare.jpg') no-repeat center; */
     background-color: #d7d7d7;
     margin: 0;
     padding: 0;
@@ -91,6 +90,27 @@ header {
     padding: 8px 0px 8px 10px;
     margin: 0px 1px;
     height: 22px;
+    overflow: hidden;
+}
+.comparerowlabel {
+    width: 26%;
+    float: left;
+    display: inline;
+    text-align: left;
+    font-size: 14px;
+}
+.comparerowitem {
+    width: 17%;
+    float: left;
+    display: inline;
+    font-size: 14px;
+    overflow: hidden;
+}
+.True {
+    background-color: #90b5e0;
+}
+.False {
+    background-color: #fff;
 }
 #disclaimer {
     background: url('images/disclaimer.jpg') no-repeat center;

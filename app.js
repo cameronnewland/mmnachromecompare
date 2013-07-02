@@ -21,12 +21,8 @@ $(document).ready(function () {
             $('#specscompare').append('<div class="comparesection"><div class="compareheaderrow"><div class="comparelabel">' + data['ComparisonData']['Heading'][key]['-HeadingName'] + '</div><div class="comparetrimnamelabel">' + data['PrimaryVehicle']['-TrimName'] + '</div><div class="comparetrimnamelabel">' + data['CompetitorVehicle'][0]['-TrimName'] + '</div><div class="comparetrimnamelabel">' + data['CompetitorVehicle'][1]['-TrimName'] + '</div><div class="comparetrimnamelabel">' + data['CompetitorVehicle'][2]['-TrimName'] + '</div></div></div>');
 
             $.each(data['ComparisonData']['Heading'][key]['Row'], function (key2) {
-                $('#specscompare').append('<div class="comparisonrow"><div class="comparerowlabel">'+data['ComparisonData']['Heading'][key]['Row'][key2]['-RowLabel']+'</div></div>');
+                $('#specscompare').append('<div class="comparisonrow"><div class="comparerowlabel">'+data['ComparisonData']['Heading'][key]['Row'][key2]['-RowLabel']+'</div>'+'<div class="comparerowitem '+data['ComparisonData']['Heading'][key]['Row'][key2]['VehicleData'][0]['-AdvantageFlag']+'">'+data['ComparisonData']['Heading'][key]['Row'][key2]['VehicleData'][0]['-ColData']+'</div>'+'<div class="comparerowitem '+data['ComparisonData']['Heading'][key]['Row'][key2]['VehicleData'][1]['-AdvantageFlag']+'">'+data['ComparisonData']['Heading'][key]['Row'][key2]['VehicleData'][1]['-ColData']+'</div>'+'<div class="comparerowitem '+data['ComparisonData']['Heading'][key]['Row'][key2]['VehicleData'][2]['-AdvantageFlag']+'">'+data['ComparisonData']['Heading'][key]['Row'][key2]['VehicleData'][2]['-ColData']+'</div>'+'<div class="comparerowitem '+data['ComparisonData']['Heading'][key]['Row'][key2]['VehicleData'][3]['-AdvantageFlag']+'">'+data['ComparisonData']['Heading'][key]['Row'][key2]['VehicleData'][3]['-ColData']+'</div>'+'</div>');
             });
-            //                $('#specscompare').append('<div class="comparisonrow"><div class="comparerowlabel">'+data['ComparisonData']['Heading']['Row'][key]['-RowLabel']+'</div>');
-
-            // +'</div><div class="comparerowitem">'+data['ComparisonData']['Heading']['Row'][key]['VehicleData'][0]['-ColData']+'</div><div class="comparerowitem">'+data['ComparisonData']['Heading']['Row'][key]['VehicleData'][1]['-ColData']+'</div><div class="comparerowitem">'+data['ComparisonData']['Heading']['Row'][key]['VehicleData'][2]['-ColData']+'</div><div class="comparerowitem">'+data['ComparisonData']['Heading']['Row'][key]['VehicleData'][3]['-ColData']+'</div>
-            //            });
         });
     });
 });
